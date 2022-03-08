@@ -19,7 +19,7 @@ const App = () => {
 		};
 		getData();
 	}, [setImages]);
-	const swiper = useSwiper();
+
 	return (
 		<div className='container my-5'>
 			<Swiper
